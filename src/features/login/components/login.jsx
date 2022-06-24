@@ -1,4 +1,4 @@
-import '../styles/main.css';
+import '../styles/main.scss';
 import React, { useState } from 'react';
 
 export default function Login(props) {
@@ -32,7 +32,7 @@ export default function Login(props) {
                                 <img src="img/eye.png" />
                             </button>
                         </div>
-                        <button type='button' onClick={LogIn}>LogIn</button>
+                        <button className='submit' type='button' onClick={LogIn}>LogIn</button>
                     </form>
                     <div className="signin">
                         <a href="#">Create account</a>
